@@ -1,4 +1,3 @@
-# template-compose-pkg
+# compose-pkg-aws
 
-This is a template to help you create new \\compose\\
-packages.
+\compose\ package adding the AWS SDK for PHP.

@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+AWS_PKG_DIR=$(cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd)
+COMPOSER_DIR=${AWS_PKG_DIR}/data/private/composer
+
+mkdir -p "${COMPOSER_DIR}"
+composer require -d ${COMPOSER_DIR} -- aws/aws-sdk-php==3.173.11

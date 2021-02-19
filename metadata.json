@@ -1,13 +1,18 @@
 {
-    "name": "Template",
-    "description": "This is a \\compose\\ template package.",
+    "name": "AWS",
+    "description": "\\compose\\ package adding the AWS SDK for PHP.",
     "dependencies": {
         "system-packages": [],
         "packages": []
     },
+    "core": {
+        "namespace": "aws",
+        "file": "AWS.php",
+        "class": "AWS"
+    },
     "compatibility": {
         "compose": {
-            "minimum": "v1.0.0",
+            "minimum": "v1.1.0",
             "maximum": "v2.0.0"
         }
     }
